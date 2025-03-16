@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logical not or logical hot!</title>
+</head>
+<body>
+    <script>
+        
+        //Normal if else Condition..
+        const age = 23;
+        if(age >= 18){
+            console.log("Ami vote dite parbo!");
+        }else{
+            console.log("Vote dite parbo na.");
+        }
+
+        //Ternary operator...
+        const myAge = 23;
+        const canVote = myAge >= 18 ? "Yes you can vote" : "No you can't vote";
+        console.log(canVote);
+
+        //try another way..
+        const newAge = 4;
+        newAge >= 18 ? console.log("You are eligible to vote") : console.log('You are not eligible to vote');
+
+        //Normal if else condtion
+        let price = 500;
+        const isPolitsion = false;
+        if(isPolitsion === true){
+            price = 0;
+            console.log(price);
+        }else{
+            price = price + 100;
+            console.log(price);
+        }
+
+        let newPrice = 400
+        //ternary operator..
+        newPrice = isPolitsion === true ? 0 : newPrice + 100;
+        console.log(newPrice);
+
+        //Ternary operator practice section
+        let cashBack = 3200;
+        cashBack = cashBack > 3000 ? cashBack - 500 : 0;
+        console.log(cashBack);
+
+        //Problem number 2
+
+        let updateAge = 12;
+        updateAge = updateAge > 15 ? 'Teenager' : 'Child';
+        console.log(updateAge);
+
+        let isLoggedIn = false;
+        isLoggedIn = isLoggedIn == true ? 'Welcome Back' : 'Please login';
+        console.log(isLoggedIn);
+
+
+        
+
+    </script>
+</body>
+</html>
